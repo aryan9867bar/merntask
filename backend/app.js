@@ -11,7 +11,7 @@ app.use(cors());
 app.use(express.json());
 app.use(bodyParser.json());
 
-mongoose.connect('mongodb://localhost:27017/pedalstart')
+mongoose.connect('mongodb://localhost:27017/merntask')
 	.then(() => console.log("Database Connected!"))
 	.catch(err => console.error("Database connection error:", err));
 
